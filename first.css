@@ -1,0 +1,58 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+li:hover {
+  background-color: white;
+  color: #3452eb;
+  cursor: pointer;
+}
+#navbar {
+  width: 300px;
+  height: 100vh;
+  background-color: #3452eb;
+  padding-top: 20px;
+}
+.img-icon {
+  width: 100%;
+  border-radius: 5px;
+}
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 35px;
+  right: 15px;
+  cursor: pointer;
+}
+#close-navbar {
+  width: 0px;
+  height: 100vh;
+  background-color: #3452eb;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#hide-icon {
+  display: none;
+  cursor: pointer;
+  color: white;
+}
+.myimage {
+  height: 100vh;
+}
