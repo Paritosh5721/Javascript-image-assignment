@@ -12,10 +12,21 @@
     />
     <script src="./first.js"></script>
   </head>
-  <body>
-    <div style="display: flex">
+
+  <body onload="fetchimage()">
+    <div class="container">
+      <div>
+        <div id="mobile-close-navbar">
+          <i
+            id="mobile-open-icon"
+            class="fa fa-bars"
+            style="font-size: 36px; color: white"
+            onclick="handleOpenClose()"
+          ></i>
+        </div>
+      </div>
       <div id="navbar">
-        <ul>
+        <ul id="menulist">
           <div class="icon">
             <i
               class="fa fa-close"
@@ -49,11 +60,7 @@
           background-color: rgb(71, 80, 76);
         "
       >
-        <img
-          src="https://drive.google.com/uc?id=1ntQAldnYC6pCq7RBIZS17a5IS2fnhAfh"
-          alt="Paritosh"
-          class="myimage"
-        />
+        <img src="" id="image" alt="Paritosh" class="myimage" />
       </div>
     </div>
   </body>
